@@ -1,0 +1,2 @@
+Model,Cohort,Rare_Specialties_Grouped,Discharge_Disposition_Excluded,Training_Rows,Test_Rows,Feature_Count,ROC_AUC,PR_AUC,Precision,Recall,F1_Score
+XGBoost,Expired/hospice removed,True,True,79541,19802,103,0.6424100069755192,0.2032521930162012,0.16498688388789176,0.5392599277978339,0.25266941537160376

@@ -1,0 +1,24 @@
+Final Diabetes 30-Day Readmission Model
+=======================================
+
+Dataset: UCI Diabetes 130-US Hospitals
+Model: XGBoost
+Target: 30-day readmission
+Expired/hospice outcomes removed: yes
+Rare medical specialties grouped: yes
+Discharge disposition excluded: yes
+Patient-level train/test split: yes
+
+Training rows: 79,541
+Test rows: 19,802
+Encoded features: 103
+
+ROC-AUC: 0.642
+PR-AUC: 0.203
+Precision: 0.165
+Recall: 0.539
+F1-score: 0.253
+
+Confusion Matrix:
+[[11538  6048]
+ [ 1021  1195]]
